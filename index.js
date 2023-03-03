@@ -1,1 +1,1 @@
-document.write(nome.toUpperCase())
+document.write("Seu nome é " + nome.toUpperCase() + " porfavor troque urgentemente!")
