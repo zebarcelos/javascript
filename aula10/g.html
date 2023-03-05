@@ -5,21 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Somando</title>
+    <style>
+        div{
+            font: normal 40px arial ;
+            width: 40px;
+            margin-top: 10px;
+            color: rgb(0, 0, 0)
+            ;
+        }
+    </style>
 </head>
 <body>
     <h1>Somando</h1>
     <input type="number" name="txtn1" id="txtn1"> +
     <input type="number" name="txtn2" id="txtn2">
     <input type="button" value="Somar" onclick="somar()">
-    <DIV id="res">RESULTADO</DIV>
+    <DIV id="res"></DIV>
     <script>
         function somar() {
-            var tn1 = window.document.getElementById("txtn1")
-            var tn2 = window.document.getElementById('txtn2')
+            var tn1 = Number(window.document.getElementById("txtn1").value)
+            var tn2 = Number(window.document.getElementById('txtn2').value)
             var res = window.document.getElementById('res')
-            var n1 = Number(tn1.value)
-            var n2 = Number(tn2.value)
-            var s = n1 + n2
+            var s = tn1 + tn2
             res.innerHTML = s
         }
     </script>
