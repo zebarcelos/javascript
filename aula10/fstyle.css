@@ -1,0 +1,11 @@
+div#area { 
+    font: italic 25pt Impact;
+    background: red;
+    color: orange;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    border-style:ridge;
+    border-color: rgb(0, 46, 252);
+}
