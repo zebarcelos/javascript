@@ -14,3 +14,4 @@ var area = window.document.getElementById("area");
         area.innerText = 'NAAAAO'
         area.style.background = 'black'
     }
+   

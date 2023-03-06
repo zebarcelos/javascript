@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 11</title>
+</head>
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tilt+Neon&display=swap');
+
+img#icone {
+    width: 30px;
+    height: 30px;
+}
+h1 {
+   color:blue;
+   font-family: 'Climate Crisis', cursive;
+
+}
+div {
+    margin-top: 30px;
+    background-color: red;
+    text-align: center;
+}
+
+</style>
+<body>
+    <H1><center>Calviciometro
+    <img id= "icone" src="40739.png" alt=""></center></H1>
+    <p id="titulo">
+        <strong> Coloque o nome de quem você gostaria de saber se é calvo:</strong>
+    </p>
+    <input type="text" name="tdc1" id="tdc1">
+    <input type="button" value="Calvicionar" onclick = "calvicionar()">
+    <div id="resultadodacalvice"><strong><center></center></strong></div>
+    <script>
+        function calvicionar(){
+    var c1 = String(window.document.getElementById("tdc1").value);
+    var c2 = (window.document.getElementById("resultadodacalvice"));
+            if(c1 == "Claudio" ||
+            c1 == "Zimmer"||
+            c1 == "Claudio"||
+            c1 == "Claudio"||
+            c1 == "Claudio"||
+            c1 == "Claudio"||
+            c1 == "Claudio"
+            ){
+            c2.innerHTML = "Este é careca!"
+            c2.style.font = 'bolder 40pt Arial'
+            c2.style.color = 'blue'
+        } else 
+            c2.innerHTML = "Este não é careca!"
+    }
+
+    </script>
+</body>
+</html>
