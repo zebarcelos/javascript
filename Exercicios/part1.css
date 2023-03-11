@@ -15,12 +15,12 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
-
 }
 #tituloinsidebox {
     color: black;
     text-align: center;
     text-shadow: 0px 0px 15px black;
+    margin-top: 10px;
 }
 
 #imgoftime{
@@ -38,9 +38,34 @@ section{
     border-radius: 100px;
     box-shadow: 0px 10px 50px black;
 }
+
+#saudacao{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: black ;
+    font-weight: bold;
+}
+#textoreferente{
+    margin-top: 30px;
+    border-color: black;
+    text-shadow: 0px 0px 10px black;
+}
 footer{
-    color: white;
+    color: rgb(247, 247, 247);
     text-align: center;
     font-style: italic;
 }
-
+#linkgit{
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    font-style: italic;
+    border-color: black;
+    text-shadow: 0px 0px 10px black;
+}
